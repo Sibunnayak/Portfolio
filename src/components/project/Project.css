@@ -1,0 +1,113 @@
+.project__container{
+    width: 47rem;
+    height: 35rem;
+    padding-left: 2.5rem;
+}
+.project__card{
+    background-color: var(--container-color);
+    border: var(--box-border);
+    padding: 2rem 2.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+}
+
+.project__img{
+    width: 45rem;
+    height: 22rem;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    object-fit: cover;
+    border-radius: 5rem;
+    margin-bottom: var(--mb-2);
+    margin-left: 1rem;
+}
+.project__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+}
+.project__description{
+    font-size: var(--small-font-size);
+}
+:root {
+    --swiper-navigation-size: 20px !important;
+}
+:root {
+    --swiper-theme-color:var(--text-color) !important;
+}
+
+
+
+
+
+
+  .portfolio-item {
+    position: relative;
+  }
+  .portfolio-item .hover-items {
+    width: 100%;
+    height: 100%;
+    background-color: var(--body-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.4s ease-in-out;
+  }
+  .portfolio-item .hover-items h3 {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+  }
+  .portfolio-item .hover-items .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-item .hover-items .icons .icon {
+    background-color: var(--text-color);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+  .portfolio-item .hover-items .icons .icon i {
+    font-size: 1.5rem;
+    color:var(--title-color-dark);
+    margin: 0 1rem;
+  }
+  .portfolio-item .hover-items .icons .icon:hover {
+    background-color: var(--body-color);
+  }
+  .portfolio-item .hover-items .icons .icon:hover i {
+    color: var(--title-color);
+  }
+  .portfolio-item:hover .hover-items {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+   top: 31rem !important;
+  }
+
+  @media screen and (max-width: 788px) {
+    .project__container{
+        width: initial;
+    }
+}
+
