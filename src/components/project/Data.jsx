@@ -21,7 +21,7 @@ export const Data = [
       description:
         "Inspiring the world's athletes, Nike delivers innovative products, experiences and services. and Discover the latest men's lifestyle and activewear from Nike. Browse new footwear and apparel for all levels of activity.",
         github:"https://github.com/Sibunnayak/NikeFootwearShop",
-        host:"https://nike-footwear-shop.vercel.app/",
+        host:"https://shoe-store-frontend-olive.vercel.app/",
       },
     {
       id: 3,
